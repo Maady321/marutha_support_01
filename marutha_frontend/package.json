@@ -1,0 +1,30 @@
+{
+  "name": "marutha-support-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@next/swc-win32-x64-msvc": "^16.0.0",
+    "@shadcn/ui": "*",
+    "clsx": "^1.2.1",
+    "lucide-react": "^0.263.0",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/node": "24.9.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "8.45.0",
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.5.2"
+  }
+}
